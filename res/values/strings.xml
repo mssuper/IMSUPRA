@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">imsupra</string>
+
+	<!-- Connection state -->
+	<string name="conn_title">imsupra: %s</string>
+	<string name="conn_connecting">Conectando ao servidor…</string>
+	<string name="conn_online">Online</string>
+	<string name="conn_offline">Offline</string>
+	<string name="conn_empty_roster">Nenhum contato a ser exibido!</string>
+	<string name="conn_reconnect">\nReconectando em %d segundos.</string>
+	<string name="conn_disconnected">Conexão fechada</string>
+	<string name="conn_networkchg">Rede alterada</string>
+
+	<!-- Global Strings -->
+	<string name="Global_Exit">Exit</string>
+	<string name="Global_authenticate_first">Por favor conecte-se primeiro</string>
+	<string name="Global_JID_hint">usuario.sobrenome@msn.alisul.com.br</string>
+
+	<!-- FirstStartUpDialog -->
+	<string name="StartupDialog_Title">Bem Vindo ao imsupra!</string>
+	<string name="StartupDialog_Summary">Você precisa configurar imsupra antes que você possa usá-lo. Digite seu ID e senha.</string>
+	<string name="StartupDialog_pwHint">Digite sua senha</string>
+	<string name="StartupDialog_Username_title">ID:</string>
+	<string name="StartupDialog_passwd_title">Senha:</string>
+	<string name="StartupDialog_advanced">Avançado…</string>
+	<string name="StartupDialog_create_new">Registrar nova conta</string>
+
+	<!-- Notifications -->
+	<string name="notification_message">Menssagem de %s</string>
+	<string name="notification_anonymous_message">Mensagem recebida</string>
+
+	<!-- Notification Settings -->
+	<string name="preftitle_notify">Notificação de Mensagem</string>
+	<string name="led_title">LED Piscando</string>
+	<string name="led_summ">Piscar o LED quando chegarem novas mensagens</string>
+	<string name="vibr_title">Vibração</string>
+	<string name="vibr_summ">Vibrar quando chegarem novas mensagens</string>
+	<string-array name="vibr_values_displayed">
+		<item>Nunca</item>
+		<item>Preferencias do Sistema</item>
+		<item>Sempre</item>
+	</string-array>
+	<string name="ringtone_title">Ringtone</string>
+	<string name="ringtone_summ">Tom para a entrada de novas mensagens</string>
+	<string name="ticker_title">visualização da mensagem</string>
+	<string name="ticker_summ">Mostrar remetente e a mensagem na barra de status</string>
+
+	<!-- Startup Setting Strings -->
+	<string name="preftitle_boot">Opções de Inicialização</string>
+	<string name="statuspopup_name">Configure seu Status</string>
+	<string name="showOffline_summ">Sempre mostrar todos os contatos da lista</string>
+	<string name="showOffline_title">Visualizar contatos off-line</string>
+	<string name="foregroundService_summ">Mantenha o imsupra na memória para garantir a conexão sempre ativa (serviço em segundo plano)</string>
+	<string name="foregroundService_title">Icone da Barra de Status</string>
+
+	<string name="preftitle_debug">Depuração</string>
+	<string name="smackdebug_summ">Pacote e saída de depuração via logcat (pode conter informações pessoais)</string>
+	<string name="smackdebug_title">Depuração SMACK</string>
+
+	<string name="reportcrash_title">Enviar relatórios de erro</string>
+	<string name="reportcrash_summ">Enviar relatórios de erros anonimos ao desenvolvedor</string>
+
+	<!-- Appearence Strings -->
+	<string name="preftitle_app">Aparência</string>
+	<string name="FontChat_title">Tamanho da fonte no Chat</string>
+	<string name="FontChat_summ">Configure o tamanho da fonte no chat</string>
+	<string name="FontChat_dialog">Tamanho da fonte</string>
+	<!--
+	<string name="FontRost_title">Roster font size</string>
+	<string name="FontRost_summ">Set roster font size</string>
+	<string name="FontRost_dialog">Roster font fize</string>
+	<string name="setFontRoster">Set roster font size</string>
+	-->
+	<string name="pref_theme">Tema</string>
+	<string-array name="pref_theme_entries">
+		<item>Escuro</item>
+		<item>Claro</item>
+	</string-array>
+	<string name="preftitle_ui">Aparencia</string>
+	<string-array name="fontSizesChat">
+		<item>pequena</item>
+		<item>normal</item>
+		<item>grande</item>
+	</string-array>
+
+	<!-- Mainmenu 	-->
+	<string name="Menu_addFriend">Adicionar contato</string>
+	<string name="Menu_ShowOff">Exibir Offline</string>
+	<string name="Menu_HideOff">Ocultar Offline</string>
+	<string name="Menu_AccSettings">Editar Conta</string>
+	<string name="Menu_Settings">Configurações</string>
+	<string name="Menu_Status">Status</string>
+	<string name="Menu_connect">Conectar</string>
+	<string name="Menu_disconnect">Desconectar</string>
+	<string name="Menu_about">Sobre imsupra</string>
+
+<!-- AddFriend -->
+<string name = "addFriend_Title">Adicionar um contato</string>
+<string name = "addFriend_Summ">Digite o ID de seu amigo, o 
+desejado nome da tela e escolher o seu grupo de contatos!</string>
+<string name = "addFriend_aliasHint">Nome da tela</string>
+<string name = "addrosteritemaddgroupchoice">Adicionar a um novo grupo</string>
+<string name = "NewGroup_EditTextField_Hint">Nome do novo grupo</string>
+
+<!-- Roster contextmenu-->
+<string name = "roster_contextmenu_title">Opções para% s</string>
+<string name = "roster_contextmenu_group_rename">grupo Renomear</string>
+<string name = "roster_contextmenu_contact_delete">Excluir Contato</string>
+<string name = "roster_contextmenu_contact_delmsg">Excluir histórico de chat</string>
+<string name = "roster_contextmenu_contact_open_chat">Open Conversação</string>
+<string name = "roster_contextmenu_contact_rename">Rename</string>
+<string name = "roster_contextmenu_contact_request_auth">Pedido de Autorização</string>
+<string name = "roster_contextmenu_contact_change_group">Alterar Grupo</string>
+
+<!-- Accountprefs-->
+<string name = "account_settings_login">Informações para o Login</string>
+<string name = "account_settings_title">Configurações de Conta</string>
+<string name = "account_options_title">Conexão Opções</string>
+<string name = "account_options_advanced">Opções avançadas</string>
+<string name = "connstartup_title">Conectar na inicialização</string>
+<string name = "connstartup_summOn">Vá para on-line quando imsupra é aberto</string>
+<string name = "connstartup_summOff">Não conecte automaticamente</string>
+<string name = "reconnect_title">Auto Reconectar</string>
+<string name = "reconnect_summ">Volte a ligar quando a conexão cai</string>
+<string name = "carbons_title">Mensagem Carbono (XEP-0280)</string>
+<string name = "carbons_summ"> cópias solicitação de mensagem do seu outro cliente (s)</string>
+<string name = "account_jabberID_title">ID</string>
+<string name = "account_jabberID_sum">exemplo: nome.sobrenomeme@msn.alisul.com.br</string>
+<string name = "account_jabberID_dialog_title">Digite o seu ID:</string>
+<string name = "account_jabberPW_title">Conta</string>
+<string name = "account_jabberPW_sum">Sua senha da conta</string>
+<string name = "account_jabberPW_dialog_title">Digite a senha:</string>
+
+<!-- Accountprefs-->
+<string name = "account_resource_title">Cliente Fonte</string>
+<string name = "account_resource_summ">Padrão: imsupra</string>
+<string name = "account_resource_dialog_title">Digite o seu recurso:</string>
+<string name = "account_resource_hint">imsupra</string>
+<string name = "account_prio_title">Prioridade do Cliente</string>
+<string name = "account_prio_summ">Padrão: 0 (permitido: -128 .. 127)</string>
+<string name = "account_prio_dialog_title">Digite a sua prioridade:</string>
+<string name = "account_port_title">Porta do Servidor</string>
+<string name = "account_port_sum">Default: 5222</string>
+<string name = "account_port_dialog_title">Digite a porta do servidor:</string>
+<string name = "account_port_hint">5222</string>
+<string name = "account_customserver_title">Personalizado Servidor</string>
+<string name = "account_customserver_summ">(Opcional) alternativa hostname do servidor</string>
+<string name = "account_customserver_dialog_title">Digite o nome do host do servidor:</string>
+<string name = "account_customserver_hint">msn.alisul.com.br</string>
+<string name = "require_ssl_title">Exigir SSL / TLS</string>
+<string name = "require_ssl_summ">Sempre criptografar conexão com o servidor</string>
+
+<!-- StatusPopUp-->
+<string name = "AddContact_SpinnerPrompt">Escolha Grupo</string>
+<string name = "setStatusmsgHint">Sua mensagem de status</string>
+<string name = "setStatusTitle">Defina seu status</string>
+<string name = "RenameGroup_summ">Renomear grupo% s para:</string>
+<string name = "RenameGroup_title">grupo Renomear</string>
+<string name = "RenameEntry_summ">Mudar o nome %1$s (%2$s) para:</string>
+<string name = "RenameEntry_title">Renomear contato</string>
+<string name = "MoveRosterEntryToGroupDialog_summ">Selecione um grupo do girador abaixo</string>
+<string name = "MoveRosterEntryToGroupDialog_title">Alterar grupo</string>
+<string name = "deleteRosterItem_text">Realmente remover %1$s (%2$s)?</string>
+<string name = "deleteRosterItem_title">Excluir Contato</string>
+<string name = "deleteChatHistory_text">Realmente remover todas as mensagens com %1$s (%2$s)?</string>
+<string name = "deleteChatHistory_title">Excluir histórico de chat</string>
+
+<!-- Chatwindow-->
+<string name = "chat_from_me">Eu:</string>
+<string name = "toast_connectfail_message">Conexão encerrada!</string>
+<string name = "toast_stored_offline">A mensagem foi armazenada para transmissão.</string>
+<string name = "chat_enterMsgHint">Digite mensagem</string>
+
+<!-- Menu Chat-->
+<string name = "chatmenu_resend">Reenviar</string>
+
+<!-- Configurações de GPS-->
+<!-- 
+<string name = "showGPS_title">GPS para o status</string>
+<string name = "showGPS_summ_on">GPS é enviado para StatusMessage</string>
+<string name = "showGPS_summ_off">GPS é enviado para StatusMessage</string>
+-->
+
+<!-- About Dialog-->
+<string name = "AboutDialog_title">Sobre imsupra</string>
+<string name = "AboutDialog_DevelopersTitle">Developers</string>
+<string name = "AboutDialog_DevelopersText">contato com os desenvolvedores em http://www.alisul.com.br ou no IRC marcelo.silveira@alisul.com.br</string>
+<string name = "AboutDialog_LicenceTitle">Licenciamento</string>
+<string name = "AboutDialog_Vote">Submeter comentários</string>
+<string name = "AboutDialog_LicenceText">
+Este programa é software livre; você pode redistribuí-lo 
+e/ou modificá-lo sob os termos da GNU General Public License versão 2 
+conforme publicada pela Free Software Foundation. 
+\n 
+</string>
+
+<string name = "status_available">online</string>
+<string name = "status_away">Fora</string>
+<string name = "status_chat">Livre para conversar</string>
+<string name = "status_dnd">Não perturbe</string>
+<string name = "status_xa">Não disponível</string>
+<string name = "status_offline">Off-line</string>
+
+<string name = "translator_credits"> tradutores-créditos</string>
+
+<!-- Grupo roster padrão sem nome-->
+<string name = "default_group">Geral</string>
+
+<!-- SEND ouvinte pop-up-->
+<string name = "ChooseContact">Escolha contato</string>
+<string name = "StartupDialog_pwrHint">Tela inicial</string>
+<string name = "build_version">0.0.0</string>
+</resources>

@@ -1,0 +1,4 @@
+Notas de versão
+
+2.0.5- Release
+2.0.6 - Correção do botão de enviar mensagem no layout. 
